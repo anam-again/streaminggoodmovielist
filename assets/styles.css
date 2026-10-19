@@ -33,6 +33,12 @@ header h1 {
   color: #000;
 }
 
+.last-update {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 5px;
+}
+
 /* Service selector */
 .service-selector {
   margin-bottom: 20px;

@@ -124,7 +124,7 @@ async function updateStreamingData() {
   // Process each movie
   for (let i = 0; i < data.movies.length; i++) {
     const movie = data.movies[i];
-    console.log(`[${i + 1}/${data.movies.length}] Checking: ${movie.title} (${movie.year})`);
+    console.log(`[${i + 1}/${data.movies.length}] Checking: ${movie.title}`);
 
     const streamingData = await getStreamingAvailability(movie.imdbId);
 

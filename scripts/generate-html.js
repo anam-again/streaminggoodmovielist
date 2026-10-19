@@ -74,6 +74,17 @@ ${rows}
       </table>`);
   }
 
+  const lastUpdate = data.metadata.lastStreamingUpdate
+    ? new Date(data.metadata.lastStreamingUpdate).toLocaleString('en-US', {
+        month: 'short',
+        day: 'numeric',
+        year: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      })
+    : 'Never';
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,6 +97,7 @@ ${rows}
 <body>
   <header>
     <h1>streaminggoodmovielist<br><span class="subtitle">2026</span></h1>
+    <p class="last-update">Updated streaming availability: ${lastUpdate}</p>
   </header>
 
   <div class="service-selector">
