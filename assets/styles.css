@@ -71,7 +71,7 @@ main {
 
 /* Table */
 .movies-table {
-  width: 470px;
+  width: 430px;
   border-collapse: collapse;
   border: 1px solid #000;
   background: #fff;
@@ -137,11 +137,6 @@ main {
 
 .title a:hover {
   text-decoration: underline;
-}
-
-.year {
-  width: 40px;
-  text-align: center;
 }
 
 .rating {

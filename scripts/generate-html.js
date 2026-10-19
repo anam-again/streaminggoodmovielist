@@ -39,7 +39,6 @@ function generateMovieRow(movie) {
             ${movie.title}
           </a>
         </td>
-        <td class="year">${movie.year}</td>
         <td class="rating">${movie.rating}</td>
         <td class="streaming">
           ${streamingIcons}
@@ -65,7 +64,6 @@ function generateHTML(data) {
             <th class="watched">✓</th>
             <th class="rank">#</th>
             <th class="title">Title</th>
-            <th class="year">Year</th>
             <th class="rating">Rating</th>
             <th class="streaming">Streaming On</th>
           </tr>
