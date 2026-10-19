@@ -1,0 +1,191 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.4;
+  color: #000;
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+}
+
+/* Service selector */
+.service-selector {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.service-label {
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.service-selector label {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.service-checkbox {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Main content */
+main {
+  width: 100%;
+}
+
+/* Flexible wrapping layout */
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+/* Table */
+.movies-table {
+  width: 470px;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  background: #fff;
+  font-size: 0.75rem;
+  table-layout: fixed;
+}
+
+.movies-table thead {
+  background: #fff;
+  color: #000;
+}
+
+.movies-table th {
+  padding: 4px 3px;
+  text-align: left;
+  font-weight: 600;
+  border: 1px solid #000;
+  font-size: 0.75rem;
+}
+
+.movies-table tbody tr {
+  border: 1px solid #000;
+}
+
+.movies-table td {
+  padding: 3px 3px;
+  border: 1px solid #000;
+  font-size: 0.75rem;
+}
+
+/* Column-specific styles - all fixed widths */
+.watched {
+  width: 25px;
+  text-align: center;
+}
+
+.watched-checkbox {
+  cursor: pointer;
+}
+
+.rank {
+  width: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.title {
+  width: 210px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title a:hover {
+  text-decoration: underline;
+}
+
+.year {
+  width: 40px;
+  text-align: center;
+}
+
+.rating {
+  width: 40px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.streaming {
+  width: 120px;
+  text-align: left;
+}
+
+/* Streaming service logos */
+.service-logo {
+  height: 16px;
+  width: auto;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.no-streaming {
+  color: #666;
+  font-size: 0.7rem;
+}
+
+/* Row states based on watched status and availability */
+/* Unwatched + unavailable = greyish red */
+tr.unwatched-unavailable {
+  background-color: #d8a8a8;
+}
+
+/* Unwatched + available = green */
+tr.unwatched-available {
+  background-color: #a8d8a8;
+}
+
+/* Watched + unavailable = grey */
+tr.watched-unavailable {
+  background-color: #c0c0c0;
+}
+
+/* Watched + available = slightly different grey */
+tr.watched-available {
+  background-color: #d0d0d0;
+}
+
