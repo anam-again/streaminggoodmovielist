@@ -115,6 +115,10 @@ ${tables.join('\n\n')}
     </div>
   </main>
 
+  <footer>
+    <a href="https://github.com/anam-again/streaminggoodmovielist" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </footer>
+
   <script src="assets/app.js"></script>
 </body>
 </html>`;

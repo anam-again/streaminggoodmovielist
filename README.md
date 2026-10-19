@@ -2,6 +2,31 @@
 
 Minimalist tracker for IMDb Top 250 with real-time US streaming availability.
 
+## For Users
+
+This site shows you which of the top-rated movies are currently available on your streaming services.
+
+**How to use:**
+
+1. **Select your services** - At the top, check which streaming platforms you have (Netflix, Prime Video, Disney+, Hulu, Max)
+2. **Check the colors:**
+   - **Green rows** = Unwatched movies available on your services
+   - **Greyish red rows** = Unwatched movies not on your services
+   - **Light grey** = Watched movies available on your services
+   - **Dark grey** = Watched movies not on your services
+3. **Track what you've watched** - Click the checkmark (✓) next to any movie you've seen. Your choices save automatically in your browser.
+4. **Updates daily** - Streaming availability refreshes every night at midnight UTC
+
+**Features:**
+- All 250 movies ranked by IMDb rating
+- Real-time streaming availability for US region only
+- Your watched list and service preferences stay private (never leave your browser)
+- Click any movie title to view it on IMDb
+
+---
+
+## For Developers
+
 ## Features
 
 - IMDb Top 250 movies with ratings

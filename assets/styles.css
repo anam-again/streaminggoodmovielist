@@ -190,3 +190,21 @@ tr.watched-available {
   background-color: #d0d0d0;
 }
 
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #000;
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
