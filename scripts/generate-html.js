@@ -26,8 +26,9 @@ function generateMovieRow(movie) {
     })
     .join('\n            ');
 
-  // Serialize streaming data for JavaScript
-  const streamingData = JSON.stringify(movie.streaming).replace(/"/g, '&quot;');
+  // Serialize streaming data for JavaScript (exclude lastChecked since it's in header)
+  const { lastChecked, ...streamingFlags } = movie.streaming || {};
+  const streamingData = JSON.stringify(streamingFlags).replace(/"/g, '&quot;');
 
   return `      <tr data-imdb-id="${movie.imdbId}" data-streaming="${streamingData}">
         <td class="watched">

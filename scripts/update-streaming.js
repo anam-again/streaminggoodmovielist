@@ -119,7 +119,6 @@ async function updateStreamingData() {
 
   let successCount = 0;
   let errorCount = 0;
-  const today = new Date().toISOString().split('T')[0];
 
   // Process each movie
   for (let i = 0; i < data.movies.length; i++) {
@@ -130,10 +129,7 @@ async function updateStreamingData() {
 
     if (streamingData) {
       // Update streaming availability
-      movie.streaming = {
-        ...streamingData,
-        lastChecked: today
-      };
+      movie.streaming = streamingData;
       successCount++;
 
       // Log which services have it
