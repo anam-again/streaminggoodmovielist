@@ -1,7 +1,7 @@
 {
   "metadata": {
     "lastManualUpdate": "2026-10-19",
-    "lastStreamingUpdate": "2026-10-22T03:15:46.311Z",
+    "lastStreamingUpdate": "2026-10-23T03:13:05.866Z",
     "totalMovies": 250
   },
   "movies": [
@@ -414,7 +414,7 @@
       "title": "Gladiator",
       "rating": 8.5,
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "prime": false,
         "disney": false,
         "hulu": false,
