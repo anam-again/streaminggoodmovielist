@@ -4,6 +4,8 @@ Minimalist tracker for IMDb Top 250 with real-time US streaming availability.
 
 ## For Users
 
+https://anam-again.github.io/streaminggoodmovielist/
+
 This site shows you which of the top-rated movies are currently available on your streaming services.
 
 **How to use:**
