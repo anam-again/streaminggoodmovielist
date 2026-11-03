@@ -1,7 +1,7 @@
 {
   "metadata": {
     "lastManualUpdate": "2026-10-19",
-    "lastStreamingUpdate": "2026-11-02T04:11:27.692Z",
+    "lastStreamingUpdate": "2026-11-03T05:11:37.091Z",
     "totalMovies": 250
   },
   "movies": [
@@ -25,7 +25,7 @@
       "rating": 9.2,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -51,7 +51,7 @@
       "rating": 9,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -116,7 +116,7 @@
       "rating": 8.8,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -220,7 +220,7 @@
       "rating": 8.7,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -285,7 +285,7 @@
       "rating": 8.6,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -522,7 +522,7 @@
         "prime": false,
         "disney": false,
         "hulu": false,
-        "max": true
+        "max": false
       }
     },
     {
@@ -531,7 +531,7 @@
       "title": "Whiplash",
       "rating": 8.5,
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "prime": false,
         "disney": false,
         "hulu": false,
@@ -574,7 +574,7 @@
         "prime": false,
         "disney": true,
         "hulu": false,
-        "max": true
+        "max": false
       }
     },
     {
@@ -857,7 +857,7 @@
       "rating": 8.4,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -899,7 +899,7 @@
         "prime": false,
         "disney": false,
         "hulu": false,
-        "max": true
+        "max": false
       }
     },
     {
@@ -974,7 +974,7 @@
       "rating": 8.4,
       "streaming": {
         "netflix": false,
-        "prime": false,
+        "prime": true,
         "disney": false,
         "hulu": false,
         "max": false
@@ -1650,7 +1650,7 @@
       "rating": 8.2,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -1689,7 +1689,7 @@
       "rating": 8.2,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -1845,7 +1845,7 @@
       "rating": 8.2,
       "streaming": {
         "netflix": false,
-        "prime": false,
+        "prime": true,
         "disney": false,
         "hulu": false,
         "max": false
@@ -2157,7 +2157,7 @@
       "rating": 8.2,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -2417,7 +2417,7 @@
       "rating": 8.1,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -2547,7 +2547,7 @@
       "rating": 8.1,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
@@ -3083,7 +3083,7 @@
         "prime": false,
         "disney": false,
         "hulu": false,
-        "max": true
+        "max": false
       }
     },
     {
@@ -3157,7 +3157,7 @@
       "title": "Stand by Me",
       "rating": 8.1,
       "streaming": {
-        "netflix": false,
+        "netflix": true,
         "prime": false,
         "disney": false,
         "hulu": false,
