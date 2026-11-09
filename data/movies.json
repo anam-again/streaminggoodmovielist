@@ -1,7 +1,7 @@
 {
   "metadata": {
     "lastManualUpdate": "2026-10-19",
-    "lastStreamingUpdate": "2026-11-08T04:13:41.045Z",
+    "lastStreamingUpdate": "2026-11-09T04:28:20.093Z",
     "totalMovies": 250
   },
   "movies": [
@@ -885,7 +885,7 @@
         "netflix": false,
         "prime": true,
         "disney": false,
-        "hulu": true,
+        "hulu": false,
         "max": false
       }
     },
@@ -1457,7 +1457,7 @@
         "netflix": false,
         "prime": false,
         "disney": false,
-        "hulu": true,
+        "hulu": false,
         "max": false
       }
     },
@@ -1886,7 +1886,7 @@
         "netflix": true,
         "prime": false,
         "disney": false,
-        "hulu": true,
+        "hulu": false,
         "max": false
       }
     },
@@ -2198,7 +2198,7 @@
         "netflix": false,
         "prime": false,
         "disney": false,
-        "hulu": true,
+        "hulu": false,
         "max": false
       }
     },
