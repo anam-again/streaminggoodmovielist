@@ -1,7 +1,7 @@
 {
   "metadata": {
     "lastManualUpdate": "2026-10-19",
-    "lastStreamingUpdate": "2026-11-17T06:22:34.558Z",
+    "lastStreamingUpdate": "2026-11-18T05:46:37.876Z",
     "totalMovies": 250
   },
   "movies": [
@@ -883,7 +883,7 @@
       "rating": 8.4,
       "streaming": {
         "netflix": false,
-        "prime": true,
+        "prime": false,
         "disney": false,
         "hulu": false,
         "max": false
